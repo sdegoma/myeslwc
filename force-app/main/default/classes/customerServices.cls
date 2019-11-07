@@ -35,6 +35,9 @@ public class customerServices
 
         @auraEnabled
         public String Id {get; set;}
+        
+        @auraEnabled
+        public String bday {get; set;}
 
         //putting them together, we get our wrapper object:
         public Customer(String name, String email, String city, String state, String status, String custId)
@@ -44,7 +47,7 @@ public class customerServices
             if(String.isNotEmpty(city)) this.city = city;
             if(String.isNotEmpty(state)) this.state = state;
             if(String.isNotEmpty(status)) this.status = status;
-            if(String.isNotEmpty(custId)) this.Id = custId;    
+            if(String.isNotEmpty(custId)) this.Id = custId;   
         }
     }
 }

@@ -26,4 +26,8 @@
         <field>Sobject_Type__c</field>
         <value xsi:type="xsd:string">Contact</value>
     </values>
+    <values>
+        <field>Test__c</field>
+        <value xsi:type="xsd:string">Birthdate</value>
+    </values>
 </CustomMetadata>
